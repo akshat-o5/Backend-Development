@@ -6,4 +6,4 @@ const john = 'john'
 const peter = 'peter'
 
 
-module.export = {john, peter}
+module.exports = {john, peter}
