@@ -6,9 +6,10 @@
 // }
 
 const names = require('./names')
-console.log(names)
+const sayHi = require('./utils')
+// console.log(names)
 
 
-// sayHi('susan')
-// sayHi(john)
-// sayHi(peter)
+sayHi('susan')
+sayHi(names.john)
+sayHi(names.peter)
