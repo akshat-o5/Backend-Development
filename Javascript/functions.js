@@ -12,6 +12,6 @@ console.log(c1, c2);
 
 
 function greeting(personName){
-    console.log(Welcome + 'personName');
+    console.log('Welcome ' + personName);
 }
 greeting('Akshat')
