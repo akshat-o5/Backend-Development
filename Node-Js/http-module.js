@@ -17,5 +17,6 @@ const server = http.createServer((request, response) =>{
 })
 server.listen(5000)
 
-// AFTER THIS, GO TO GOOGLE AND TYPE 'localhost:5000
+// AFTER THIS, GO TO GOOGLE AND TYPE 'localhost:5000'
 
+// Also , to get erroe page , type  ' localhost:5000/error'
