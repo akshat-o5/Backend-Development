@@ -1,0 +1,16 @@
+// THE NAVIGATOR OBJECT CONTAINS INFORMATION ABOUT THE BROWSER WHERE YOUR APPLICATION IS RUNNING.
+
+
+
+// TO ACCESS NAVIGATOR OBJECT
+window.navigator
+
+
+
+
+navigator.userAgent
+
+
+
+
+navigator.onLine

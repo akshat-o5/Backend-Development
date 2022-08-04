@@ -19,7 +19,7 @@ screen.availWidth
 screen
 
 
-
+// TO ACCESS SCREEN OBJECT
 window.screen
 
 
