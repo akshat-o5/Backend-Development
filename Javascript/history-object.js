@@ -1,0 +1,25 @@
+ 
+// THE JAVASCRIPT HISTORY OBJECT REPRESENTS AN ARRAY OF URL's VISITED BY TH USER.
+
+// IT GIVES US TWO METHODS:
+
+// 1) back() : IT LOADS THE PREVIOUS PAGE FROM THE BROWSER History.
+// 2) forward() : IT LOADS THE NEXT PAGE FROM THE BROWSER History.
+
+
+
+
+
+// TO ACCESS THE HISTORY OBJECT
+window.history
+
+
+
+
+
+window.history.back
+
+
+
+
+window.history.forward
