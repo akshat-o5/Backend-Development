@@ -11,6 +11,7 @@ function createTODODynamically(id, title){
 
 
 
+
 function getTODOListFromBackend() {
     // this line will create a new instance of XMLHTTPREQUEST object and will store it inside the http variable
     var http = new XMLHttpRequest()
@@ -36,10 +37,3 @@ function getTODOListFromBackend() {
 }
 
 getTODOListFromBackend()
-
-
-
-
-
-
-
