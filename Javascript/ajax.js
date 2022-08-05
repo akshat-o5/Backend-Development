@@ -28,12 +28,69 @@
 
 
 
+
+
+
+// function getTODOListFromBackend() {
+//     // this line will create a new instance of XMLHTTPREQUEST object and will store it inside the http variable
+//     var http = new XMLHttpRequest()
+//     http.open('GET', 'https://jsonplaceholder.typicode.com/todos', true)
+//     http.send()
+
+// }
+
+// getTODOListFromBackend()
+
+
+
+
+
+
+
+// HANDELLING HTTPS RESPONSE
+
+
+
+// THE 'readyState' PROPERTY:
+
+// The XMLHTTPRequest object gives us access to another property called readyState. The readyStaqte property holds the status of the XMLHTTPRequest.
+
+// These are availabloe status for the request:
+
+// 1) UNSENT: it means that the request has been initiated but open() not called yet. it is represented by value 0.
+
+// 2) OPENED: it means that open() has been called. it is represented by value 1.
+
+// 3) HEADERS RECIEVED: it means that the send() has been called. it is represented by value 2.
+
+// 4) LOADING: it means tat the request is being processes. it is represented by value 3.
+
+// 5) DONE: it means that the request is completed and response is ready. it is represented by value 4.
+
+
+
+
+
+
+
+
 function getTODOListFromBackend() {
     // this line will create a new instance of XMLHTTPREQUEST object and will store it inside the http variable
     var http = new XMLHttpRequest()
+    http.onreadystatechange = function(){
+        if(this.readyState == 4){
+            if(this.status == 200){
+                // console.log('RESPONSE RECIEVED')
+                console.log(JSON.parse(this.responseText))
+            }
+            else{
+                console.log('CALL FAILED')
+            }
+            
+        }
+    }
     http.open('GET', 'https://jsonplaceholder.typicode.com/todos', true)
-    http.send()
-
+    http.send()   
 }
 
 getTODOListFromBackend()
