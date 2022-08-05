@@ -31,15 +31,15 @@
 
 
 
-// function getTODOListFromBackend() {
-//     // this line will create a new instance of XMLHTTPREQUEST object and will store it inside the http variable
-//     var http = new XMLHttpRequest()
-//     http.open('GET', 'https://jsonplaceholder.typicode.com/todos', true)
-//     http.send()
+function getTODOListFromBackend() {
+    // this line will create a new instance of XMLHTTPREQUEST object and will store it inside the http variable
+    var http = new XMLHttpRequest()
+    http.open('GET', 'https://jsonplaceholder.typicode.com/todos', true)
+    http.send()
 
-// }
+}
 
-// getTODOListFromBackend()
+getTODOListFromBackend()
 
 
 
