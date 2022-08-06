@@ -1,6 +1,6 @@
 // Spread Operator
 
-// Spread Operator allows arrays and objectsyo be expanded into :
+// Spread Operator allows arrays and objects to be expanded into :
 
 // -> elements in case of array
 
