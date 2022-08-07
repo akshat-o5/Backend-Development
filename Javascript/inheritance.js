@@ -76,3 +76,75 @@ claire.age()
 claire.updateYear(2000)
 
 claire.age()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// INHERITANCE IN ES6
+
+
+// ES6 PROVIDES US WITH A KEYWORD CALLED extends TO INHERIT CLASSES.
+
+// The extends keyword is used in class declarations or class expressions to create a class that is a child of another class.
+
+
+
+// Syntax: 
+
+// class ChildClass extends ParentClass { /* … */ }
+
+
+
+// console.clear()
+
+
+
+// NEW WAY OF REATING CLAASES AND CONTRUCTORS
+class Person{
+
+    constructor(name, year){
+        this.name = name
+        this.year = year
+    }
+
+    getDetails = () => {
+        console.log(`${this.name} ${2022 - this.year}`) 
+    }
+
+}
+
+
+class Pilot extends Person{
+
+    constructor(name, year, exp, type, liscence){
+        super(name, year)
+        this.experience = exp
+        this.type = type
+        this.liscence = liscence
+    }
+
+    getData = () =>{
+        console.log(`${this.experience}, ${this.type}`)
+    }
+
+}
+
+const akshat =new Pilot('akshat', 2002, 20, 'private', 'TC1234')
+
+console.log(akshat)
+
+akshat.getData()
+
+// var akshat = new Person('akshat', 2002)
+
+// console.log(akshat.getDetails())
