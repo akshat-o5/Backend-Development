@@ -1,0 +1,45 @@
+
+JQUERY
+
+-> It is a JavaScript library.
+
+-> It is fast, lightweight, and feature-rich.
+
+-> It is based on the principle "write less, do more".
+
+-> If you plan to use it then you wouldn't have to worry about browser support because it is supported by all major browsers like Chrome, Firefox, Safari, Internet Explorer, etc.
+
+
+
+
+
+
+
+FUNCTIONALITIES :
+
+These are the list of things that Jquery can help you with :
+
+-> HTML/DOM manipulation.
+
+-> CSS manipulation.
+
+-> Handeling HTML Event.
+
+-> Effects and Animations.
+
+-> Making AJAX Calls.
+
+
+
+
+
+
+
+
+ADVANTAGES of JQUERY :
+
+-> Saves lots of time :
+                It providesyou with tons of in-built functionalities that you can directly use or else you would haveto write it youself using JavaScript.
+
+-> Simplifies common JavaScript tasks : 
+                It helps you write the same functionality with lesser lines of code than JavaScript.
