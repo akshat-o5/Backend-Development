@@ -1,0 +1,18 @@
+
+// reduce() FUNCTION:
+
+// JUST LIKE map(), reduce() ALSO ITERATES THROUGH THE ENTIRE ARRAY AND IT ACCEPTS A CALLBACK FUNCTION TO PERFORM SOME ACTION ON THE ARRAY ELEMENT. THE DIFFERENCE HERE IS THAT reduce() PASSES THR CALLBACK FRO, ONE ITERATION TO THE NEXT ONE. THIS CALL BACK RESULT IS CALLED ACCUMULATOR. THE ACCUMULATOR CAN BE PRETTY MUCH ANYTHING (INTEGER, STRING, OBJECT OR EVEN AN ARRAY) AND MUST BE INSTATIATED AND PASSES WHEN CALLING reduce().
+
+
+
+
+const numArr = [ 1, 2, 3, 4, 5] 
+
+const result = numArr.reduce((acc, item) => {
+    // console.log(item)
+    // console.log(acc)
+    // return acc+1
+    return acc+item
+}, 0)
+
+console.log(result)
