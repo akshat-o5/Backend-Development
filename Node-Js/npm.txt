@@ -1,0 +1,7 @@
+ npm stands for node package manager.
+
+ It helps us to manage the node pakages.
+
+ It is similar to pip in python.
+
+ It facilitates us to install node pakages.
