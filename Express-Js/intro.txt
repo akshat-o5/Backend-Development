@@ -1,0 +1,7 @@
+Express is a fast,  unopinionated, minmalist web framework for node-js.
+
+It is server side framework.
+
+It is used to make server side applications very easily.
+
+Goto express docs for more info.
