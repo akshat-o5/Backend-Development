@@ -5,3 +5,18 @@
  It is similar to pip in python.
 
  It facilitates us to install node pakages.
+
+
+ Packages are pre-written, reusable pieces code written by various developers in javascript.
+
+ We can directly include that package and use it in our codes.
+
+
+
+
+
+
+
+ DEPENDENCIES : EXTERNAL PAKAGES INSTALLED BY NPM.
+
+ DEV DEPENDENCIES : DEPENDENCIES THAT WE USE ONLY AT LIME OF DEPENDENCIEES
