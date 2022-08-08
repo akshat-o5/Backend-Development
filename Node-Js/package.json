@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Akshat",
+  "type": "module",
   "license": "ISC",
   "keywords": [],
   "description": "It is an amazing package.",
