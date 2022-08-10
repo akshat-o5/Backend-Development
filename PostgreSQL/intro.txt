@@ -10,6 +10,8 @@ This data is stored inside a computer server.
 
 WHAT IS POSTGRESQL ?
 
+PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
+
 In PostgreSQL , postgres is the actual database engine and the SQL is the actal structured query language. This structured query language allows you to work with databases.
 
 
