@@ -1,7 +1,15 @@
 const express = require("express");
 const app = express();
+
 const path = require("path");
+
+// var express = require('express');
+var exphbs  = require('express-handlebars');
+
 const port = 3000;
+
+app.engine('handlebars', exphbs.engine());
+app.set('view engine', 'handlebars');
 
 // // CREATING OUR OWN EXPRESS MIDDLEWARE
 // const akshatMiddleware = (req, res, next) => {
@@ -28,3 +36,4 @@ app.use('/', require(path.join(__dirname, "routes/blog.js")))
 app.listen(port, () => {
   console.log(`Blog app listening on port http://localhost:${port}`);
 });
+
