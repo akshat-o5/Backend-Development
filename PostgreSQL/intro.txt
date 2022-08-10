@@ -1,0 +1,5 @@
+WHAT IS A DATABASE?
+
+A database is a place where you can store, retireve and manipulate data.
+
+This data is stored inside a computer server.
