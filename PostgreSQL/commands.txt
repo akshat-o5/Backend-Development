@@ -1,1 +1,4 @@
 CREATE DATABASE [name]
+
+\c [name]
+to connect a database
