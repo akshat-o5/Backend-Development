@@ -15,6 +15,13 @@ PostgreSQL is a powerful, open source object-relational database system with ove
 In PostgreSQL , postgres is the actual database engine and the SQL is the actal structured query language. This structured query language allows you to work with databases.
 
 
+CHARACTERISTICS OF POSTGRESQL:
+
+-> Object Oriented Database Management.
+-> Modern.
+-> Open Source.
+
+
 ADVANTAGES OF SQL PROGRAMMING LANGUAGE:
 
 -> Manage data held in a relational database.
