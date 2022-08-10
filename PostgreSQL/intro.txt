@@ -3,3 +3,38 @@ WHAT IS A DATABASE?
 A database is a place where you can store, retireve and manipulate data.
 
 This data is stored inside a computer server.
+
+
+
+
+
+WHAT IS POSTGRESQL ?
+
+In PostgreSQL , postgres is the actual database engine and the SQL is the actal structured query language. This structured query language allows you to work with databases.
+
+
+ADVANTAGES OF SQL PROGRAMMING LANGUAGE:
+
+-> Manage data held in a relational database.
+-> Easy to learn.
+-> Very powerful.
+-> Used since 1974.
+-> Widely used all over Internet.
+
+
+
+
+
+HOW DATA IS STORED ?
+
+-> Stores data in tables.
+-> Columns.
+-> Rows
+
+
+
+
+
+WHAT IS A RELATIONAL DATABASES?
+
+A relational database is basically a relation between two or more tables.
