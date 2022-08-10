@@ -1,4 +1,9 @@
-CREATE DATABASE [name]
+CREATE DATABASE [name];
 
 \c [name]
 to connect a database
+
+DROP DATABASE [name];
+
+\l 
+list all databases
