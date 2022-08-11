@@ -23,3 +23,5 @@ CREATE TABLE [IF NOT EXISTS] table_name (
 \d 
 see description of table_constraints
 
+
+DROP TABLE [name]
