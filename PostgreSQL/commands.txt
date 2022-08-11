@@ -18,3 +18,8 @@ CREATE TABLE [IF NOT EXISTS] table_name (
    column3 datatype(length) column_contraint,
    table_constraints
 );
+
+
+\d 
+see description of table_constraints
+
