@@ -56,3 +56,11 @@ sorts value of that paricular column in acesding order
 
 SELECT DISTINCT [column name] FROM [name] ORDER BY [column name];
 to remove duplicate elements
+
+
+
+
+
+
+SELECT * FROM [name] WHERE [column name] = ['Value'];
+to filter out table with a particular value
