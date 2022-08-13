@@ -47,3 +47,17 @@ HOW DATA IS STORED ?
 WHAT IS A RELATIONAL DATABASES?
 
 A relational database is basically a relation between two or more tables.
+
+
+
+
+
+
+
+
+
+
+
+
+Mockaroo.com:
+random data generator for SQL.

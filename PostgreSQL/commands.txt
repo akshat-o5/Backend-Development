@@ -29,3 +29,11 @@ DROP TABLE [name];
 
 INSERT INTO table_name(column1, column2, …)
 VALUES (value1, value2, …);
+
+
+SELECT * FROM [name];
+to see all added values in table_constraints
+
+
+SELECT [column name] FROM [name];
+to see all added values in particular column to table
