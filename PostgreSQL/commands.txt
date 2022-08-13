@@ -45,3 +45,14 @@ to see all added values in particular column to table
 
 SELECT * FROM [column name] ORDER BY [name];
 sorts value of that paricular column in acesding order
+
+
+
+
+
+
+
+
+
+SELECT DISTINCT [column name] FROM [name] ORDER BY [column name];
+to remove duplicate elements
