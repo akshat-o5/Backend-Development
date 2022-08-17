@@ -217,3 +217,14 @@ SELECT MIN(price) FROM car;
 AVG() function:
 Used to select the average value of a column_name from a table.
 SELECT AVG(price) FROM car;
+
+
+
+
+
+
+
+
+ROUND() function:
+Used to select the round off value of a column_name from a table.
+SELECT ROUND(AVG(price)) FROM car;
