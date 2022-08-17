@@ -194,3 +194,15 @@ SELECT country,COUNT(*) FROM person GROUP BY country HAVING COUNT(*) > 5 ORDER B
 MAX() function:
 Used to select the maximum value of a column_name from a table.
 SELECT MAX(price) FROM car;
+
+
+
+
+
+
+
+
+
+MIN() function:
+Used to select the minimum value of a column_name from a table.
+SELECT MIN(price) FROM car;
