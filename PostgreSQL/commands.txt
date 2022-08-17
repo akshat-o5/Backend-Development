@@ -314,3 +314,15 @@ Gives us Date.
 
 SELECT NOW()::TIME;
 Gives the current Time.
+
+
+
+
+
+
+
+
+
+
+ADDING AND SUBTRACTING WITH DATES:
+SELECT NOW() - INTERVAL '10 YEARS';
