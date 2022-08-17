@@ -166,7 +166,10 @@ SELECT * FROM person WHERE country ILIKE 'p%';
 
 
 
+
+GROUP BY keyword:
 SELECT country,COUNT(*) FROM person GROUP BY country;
+The COUNT(*) function used here is used to count the no. of values corresponding to entered value.
 
 
 
@@ -175,3 +178,7 @@ SELECT country,COUNT(*) FROM person GROUP BY country;
 
 
 
+
+
+HAVING keyword:
+SELECT country,COUNT(*) FROM person GROUP BY country HAVING COUNT(*) > 5 ORDER BY country;
