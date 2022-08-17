@@ -70,3 +70,23 @@ random data generator for SQL.
 
 
 Also refer to PostgreSQL documentation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+WHAT IS A PRIMARY KEY ??
+
+A primary key is a column or a group of columns used to identify a row uniquely in a table.
+
+You define primary keys through primary key constraints. Technically, a primary key constraint is the combination of a not-null constraint and a UNIQUE constraint.
+
+A table can have one and only one primary key. It is a good practice to add a primary key to every table. When you add a primary key to a table, PostgreSQL creates a unique B-tree index on the column or a group of columns used to define the primary key.
