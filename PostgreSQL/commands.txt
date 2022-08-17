@@ -301,3 +301,16 @@ Gives the current timestamp.
 
 SELECT NOW()::DATE;
 Gives us Date.
+
+
+
+
+
+
+
+
+
+
+
+SELECT NOW()::TIME;
+Gives the current Time.
