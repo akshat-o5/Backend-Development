@@ -64,3 +64,12 @@ to remove duplicate elements
 
 SELECT * FROM [name] WHERE [column name] = ['Value'];
 to filter out table with a particular value
+
+
+
+
+
+
+
+
+
