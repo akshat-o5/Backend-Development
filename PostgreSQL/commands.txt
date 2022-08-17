@@ -182,3 +182,15 @@ The COUNT(*) function used here is used to count the no. of values corresponding
 
 HAVING keyword:
 SELECT country,COUNT(*) FROM person GROUP BY country HAVING COUNT(*) > 5 ORDER BY country;
+
+
+
+
+
+
+
+
+
+MAX() function:
+Used to select the maximum value of a column_name from a table.
+SELECT MAX(price) FROM car;
