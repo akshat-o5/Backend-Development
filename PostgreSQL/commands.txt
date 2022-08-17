@@ -146,3 +146,15 @@ SELECT * FROM person WHERE dob BETWEEN DATE '2000-01-01' AND '2015-01-01';
 LIKE operator:
 LIKE operator is used to match text values against a pattern using wildcards.
 SELECT * FROM person WHERE email LIKE '%google.com';
+
+
+
+
+
+
+
+
+
+ILIKE operator:
+ILIKE operator makes the keyword value case insensitive
+SELECT * FROM person WHERE country ILIKE 'p%';
