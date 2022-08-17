@@ -290,3 +290,14 @@ SELECT NULLIF(10, 20);
 
 SELECT NOW();
 Gives the current timestamp.
+
+
+
+
+
+
+
+
+
+SELECT NOW()::DATE;
+Gives us Date.
