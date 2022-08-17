@@ -239,3 +239,25 @@ SELECT ROUND(AVG(price)) FROM car;
 SUM() function:
 Used to sum over our datasets.
 SELECT SUM(price) FROM car;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COALESCE keyword:
+The COALESCE keyword llows you to have a default value in-case the first one is not present.
+SELECT * FROM person;
+SELECT email FROM person;
+SELECT COALESCE(email) FROM person;
+SELECT COALESCE(email, 'email not present') FROM person;
