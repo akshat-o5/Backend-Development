@@ -261,3 +261,18 @@ SELECT * FROM person;
 SELECT email FROM person;
 SELECT COALESCE(email) FROM person;
 SELECT COALESCE(email, 'email not present') FROM person;
+
+
+
+
+
+
+
+
+
+
+
+NULLIF keyword:
+The NULLIF keyword takes two argument and returns the first argument if the second argument is not equal to the first argument.
+SELECT NULLIF(10, 10);
+SELECT NULLIF(10, 20);
