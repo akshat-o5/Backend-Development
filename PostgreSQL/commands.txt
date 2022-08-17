@@ -71,5 +71,6 @@ to filter out table with a particular value
 
 
 
-
-
+IN operator:
+SELECT * FROM person WHERE country IN ('China', 'India', 'Brazil');
+This is an alternative of OR operator.
