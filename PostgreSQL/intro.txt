@@ -61,3 +61,12 @@ A relational database is basically a relation between two or more tables.
 
 Mockaroo.com:
 random data generator for SQL.
+
+
+
+
+
+
+
+
+Also refer to PostgreSQL documentation.
