@@ -1,15 +1,31 @@
 CREATE DATABASE [name];
 
 
+
+
+
+
 \c [name]
 to connect a database
+
+
+
+
 
 
 DROP DATABASE [name];
 
 
+
+
+
+
 \l 
 list all databases
+
+
+
+
 
 
 CREATE TABLE [IF NOT EXISTS] table_name (
@@ -20,23 +36,56 @@ CREATE TABLE [IF NOT EXISTS] table_name (
 );
 
 
+
+
+
+
+
 \d 
 see description of table_constraints
+
+
+
+
+
 
 
 DROP TABLE [name];
 
 
+
+
+
+
+
+INSERT operator:
 INSERT INTO table_name(column1, column2, …)
 VALUES (value1, value2, …);
+
+
+
+
+
+
+
+
 
 
 SELECT * FROM [name];
 to see all added values in table_constraints
 
 
+
+
+
+
+
+
 SELECT [column name] FROM [name];
 to see all added values in particular column to table
+
+
+
 
 
 
@@ -53,7 +102,7 @@ sorts value of that paricular column in acesding order
 
 
 
-
+DISTINCT operator: 
 SELECT DISTINCT [column name] FROM [name] ORDER BY [column name];
 to remove duplicate elements
 
@@ -61,7 +110,7 @@ to remove duplicate elements
 
 
 
-
+WHERE operator:
 SELECT * FROM [name] WHERE [column name] = ['Value'];
 to filter out table with a particular value
 
@@ -74,3 +123,12 @@ to filter out table with a particular value
 IN operator:
 SELECT * FROM person WHERE country IN ('China', 'India', 'Brazil');
 This is an alternative of OR operator.
+
+
+
+
+
+
+
+BETWEEN operator:
+SELECT * FROM person WHERE dob BETWEEN DATE '2000-01-01' AND '2015-01-01';
