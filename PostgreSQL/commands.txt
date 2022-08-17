@@ -224,7 +224,18 @@ SELECT AVG(price) FROM car;
 
 
 
-
 ROUND() function:
 Used to select the round off value of a column_name from a table.
 SELECT ROUND(AVG(price)) FROM car;
+
+
+
+
+
+
+
+
+
+SUM() function:
+Used to sum over our datasets.
+SELECT SUM(price) FROM car;
