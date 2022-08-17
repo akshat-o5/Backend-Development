@@ -206,3 +206,14 @@ SELECT MAX(price) FROM car;
 MIN() function:
 Used to select the minimum value of a column_name from a table.
 SELECT MIN(price) FROM car;
+
+
+
+
+
+
+
+
+AVG() function:
+Used to select the average value of a column_name from a table.
+SELECT AVG(price) FROM car;
