@@ -158,3 +158,20 @@ SELECT * FROM person WHERE email LIKE '%google.com';
 ILIKE operator:
 ILIKE operator makes the keyword value case insensitive
 SELECT * FROM person WHERE country ILIKE 'p%';
+
+
+
+
+
+
+
+
+SELECT country,COUNT(*) FROM person GROUP BY country;
+
+
+
+
+
+
+
+
