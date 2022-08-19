@@ -402,3 +402,4 @@ DELETE FROM person WHERE id = 1;
 UNIQUE Constraint:
 The UNIQUE Constraint allows us to have unique values for a given column.
 ALTER TABLE person ADD CONSTRAINT unique_email_adderss UNIQUE (email);
+It is different from primary key , as primary key allows a to identify a record in a table.
