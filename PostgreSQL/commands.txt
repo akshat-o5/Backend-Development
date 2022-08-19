@@ -441,3 +441,4 @@ ALTER TABLE person ADD CONSTRAINT gender_constraint CHECK (gender = 'FEMALE' OR 
 UPDATE Command:
 The UPDATE Command allows us to update a column or multiple columns based on the WHERE clause.
 Providing WHERE clause helps you to have a control of what you are updating.
+UPDATE person SET email = 'guptaakshat@gmail.com' where id = 1;
