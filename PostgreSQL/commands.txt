@@ -362,3 +362,15 @@ SELECT EXTRACT(DAY FROM NOW());
  SELECT * from person LIMIT 1;
  LIMIT aloows us to select a range of values under this.
  
+
+
+
+
+
+
+
+
+
+
+Alerting a constraint:
+ALTER TABLE person DROP CONSTRAINT person_pkey;
