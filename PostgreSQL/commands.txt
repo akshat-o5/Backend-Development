@@ -401,3 +401,4 @@ DELETE FROM person WHERE id = 1;
 
 UNIQUE Constraint:
 The UNIQUE Constraint allows us to have unique values for a given column.
+ALTER TABLE person ADD CONSTRAINT unique_email_adderss UNIQUE (email);
