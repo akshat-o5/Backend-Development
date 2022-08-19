@@ -421,3 +421,22 @@ It is different from primary key , as primary key allows a to identify a record 
 CHECK Constraint:
 The CHECK Constraint allows us to add a constraint based upon the boolean values.
 ALTER TABLE person ADD CONSTRAINT gender_constraint CHECK (gender = 'FEMALE' OR gender = 'MALE');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UPDATE Command:
+The UPDATE Command allows us to update a column or multiple columns based on the WHERE clause.
