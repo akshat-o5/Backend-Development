@@ -374,3 +374,16 @@ SELECT EXTRACT(DAY FROM NOW());
 
 Alerting a constraint:
 ALTER TABLE person DROP CONSTRAINT person_pkey;
+
+
+
+
+
+
+
+
+
+
+
+Deleting a record from table:
+DELETE FROM person WHERE id = 1;
