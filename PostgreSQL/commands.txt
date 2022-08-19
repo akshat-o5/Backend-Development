@@ -387,3 +387,17 @@ ALTER TABLE person DROP CONSTRAINT person_pkey;
 
 Deleting a record from table:
 DELETE FROM person WHERE id = 1;
+
+
+
+
+
+
+
+
+
+
+
+
+UNIQUE Constraint:
+The UNIQUE Constraint allows us to have unique values for a given column.
