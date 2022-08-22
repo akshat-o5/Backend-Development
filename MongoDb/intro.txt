@@ -51,3 +51,12 @@ ADVANTAGES OF NOSQL OVER RDBMS:
 -> Cheaper to manage.
 
 -> Scaling is a huge advantage for NoSQL databases - Scale out / Scale in.
+
+
+
+
+
+
+
+SCALE OUT ->
+        In a scale-out architecture, associated with NoSQL databases, a distributed set of nodes known as a cluster is used as the basic architecture. It provides highly elastic scaling capability, enabling you to add nodes to handle load on the fly.
