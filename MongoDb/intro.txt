@@ -85,4 +85,28 @@ ADVANTAGES OF RDBMS OVER NOSQL:
 
 -> ACID Compliance:
         Acronym for Atomicity Consistency Isolation and Durability. 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TYPES OF NOSQL DATABASES : 
+
+-> Document Databases [MongoDB, CouchDB]
+
+-> Column Databases [Apatche Cassandra]
+
+-> Key-Value Stores [Redis, Couchbase Server]
+
+-> Cache Systems [Redis, Memcache]
+
+-> Graph Database [Neo4J]
