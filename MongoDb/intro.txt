@@ -6,4 +6,23 @@ WHAT IS NOSQL ??
 
 -> A flexible database used for big data and real-time web apps.
 
--> Multiple types ofn databases.
+-> Multiple types of databases.
+
+
+
+
+
+
+
+
+
+
+
+
+WHAT IS BIG DATA ??
+
+-> A term for data sets that are so large that traditional methods of storage and processing are inadequate.
+
+-> Massive increase in data and volume within the last decade or so.
+
+-> Social networks, search engines etc.
