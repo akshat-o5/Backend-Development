@@ -1,0 +1,9 @@
+WHAT IS NOSQL ??
+
+-> Stands for "NOT ONLY SQL"
+
+-> A Non-Relational database (No Tables)
+
+-> A flexible database used for big data and real-time web apps.
+
+-> Multiple types ofn databases.
