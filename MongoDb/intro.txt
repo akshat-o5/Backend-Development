@@ -28,3 +28,26 @@ WHAT IS BIG DATA ??
 -> Social networks, search engines etc.
 
 -> Challenges in storage, capture, analysis, transfer, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+ADVANTAGES OF NOSQL OVER RDBMS:
+
+-> Handles Big Data.
+
+-> Data Models - No predefined schema
+
+-> Data Structure - NOSQL handles unstructured data
+
+-> Cheaper to manage.
+
+-> Scaling is a huge advantage for NoSQL databases - Scale out / Scale in.
