@@ -26,3 +26,5 @@ WHAT IS BIG DATA ??
 -> Massive increase in data and volume within the last decade or so.
 
 -> Social networks, search engines etc.
+
+-> Challenges in storage, capture, analysis, transfer, etc.
