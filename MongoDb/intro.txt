@@ -133,3 +133,24 @@ WHAT IS MongoDB ??
 -> Available as community and enterprise edition.
 
 -> However the community edition itself is very powerful.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DIFFERENCE BETWEEN mongo AND mongod:
+
+-> "mongo" is the command line shell that connects to a specific instance of mongod.
+
+-> "mongod" is the "Mongo Daemon". It is basically the host process for the database.
