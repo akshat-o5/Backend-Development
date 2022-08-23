@@ -110,3 +110,26 @@ TYPES OF NOSQL DATABASES :
 -> Cache Systems [Redis, Memcache]
 
 -> Graph Database [Neo4J]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WHAT IS MongoDB ??
+
+-> MongoDB is a document database designed for ease of development and scaling.
+
+-> It is intuitive and easy to use NoSQL Database.
+
+-> Available as community and enterprise edition.
+
+-> However the community edition itself is very powerful.
