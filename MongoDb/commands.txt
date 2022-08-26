@@ -26,3 +26,8 @@ db.createCollection('comments')
 
 Drop a collection named 'comments':
 db.comments.drop()
+
+
+
+3. Row(Document) Commands
+
