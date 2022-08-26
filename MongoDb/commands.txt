@@ -9,3 +9,6 @@ use dbName
 
 View current Database:
 db
+
+Delete Database :
+db.dropDatabase()
