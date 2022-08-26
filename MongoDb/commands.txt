@@ -1,0 +1,5 @@
+1. Database Commands
+
+
+View all databases:
+show dbs
