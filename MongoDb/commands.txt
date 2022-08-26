@@ -23,3 +23,6 @@ show collections
 
 Create a collection named 'comments':
 db.createCollection('comments')
+
+Drop a collection named 'comments':
+db.comments.drop()
