@@ -40,3 +40,10 @@ db.comments.find().pretty()
 
 Find the first row matching the object:
 db.comments.findOne({name: 'Harry'})
+
+Insert One Row:
+db.comments.insert({
+    'name': 'Harry',
+    'lang': 'JavaScript',
+    'member_since': 5
+ })
